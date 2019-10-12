@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_ba08cb6dd44a4b4ca90f3ce31c423497 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ba08cb6dd44a4b4ca90f3ce31c423497" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_ba08cb6dd44a4b4ca90f3ce31c423497 = L.map(
+                                  'map_ba08cb6dd44a4b4ca90f3ce31c423497',
+                                  {center: [30.2711286,-97.7436995],
+                                  zoom: 7,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_0c201dcc80d3448aad2ef595a6807557 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+        
+    
+            var circle_marker_4f16e425a4034945909958dfea0306d7 = L.circleMarker(
+                [32.78371238866661,-96.78393273680322],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_97ca1c6fd805489193eee63e24a84cd7 = L.popup({maxWidth: '300'});
+
+            
+                var html_b1aa65cc63604adeb6259f9a722fb146 = $('<div id="html_b1aa65cc63604adeb6259f9a722fb146" style="width: 100.0%; height: 100.0%;">75201,Pecan Lodge,4.6 stars, 4271 reviews</div>')[0];
+                popup_97ca1c6fd805489193eee63e24a84cd7.setContent(html_b1aa65cc63604adeb6259f9a722fb146);
+            
+
+            circle_marker_4f16e425a4034945909958dfea0306d7.bindPopup(popup_97ca1c6fd805489193eee63e24a84cd7);
+
+            
+        
+    
+            var circle_marker_ad143831d4614fa0a01e829761c91acc = L.circleMarker(
+                [32.784904,-96.77927700000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_8d1aee98bb974db996d66b2e52cc6e81 = L.popup({maxWidth: '300'});
+
+            
+                var html_acb3e8518b2b4d3691a8a02d0104eb97 = $('<div id="html_acb3e8518b2b4d3691a8a02d0104eb97" style="width: 100.0%; height: 100.0%;">75201,Terry Black&#39;s Barbecue,4.7 stars, 6807 reviews</div>')[0];
+                popup_8d1aee98bb974db996d66b2e52cc6e81.setContent(html_acb3e8518b2b4d3691a8a02d0104eb97);
+            
+
+            circle_marker_ad143831d4614fa0a01e829761c91acc.bindPopup(popup_8d1aee98bb974db996d66b2e52cc6e81);
+
+            
+        
+    
+            var circle_marker_995254d08bf9480c8672c2898a1cb965 = L.circleMarker(
+                [32.69403678433247,-96.77292274663168],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_d85731d18b04464d836b9bbddf0dc446 = L.popup({maxWidth: '300'});
+
+            
+                var html_09ddf1b5240549b888b82910373ffe11 = $('<div id="html_09ddf1b5240549b888b82910373ffe11" style="width: 100.0%; height: 100.0%;">75203,Sweet Georgia Brown,4.4 stars, 3261 reviews</div>')[0];
+                popup_d85731d18b04464d836b9bbddf0dc446.setContent(html_09ddf1b5240549b888b82910373ffe11);
+            
+
+            circle_marker_995254d08bf9480c8672c2898a1cb965.bindPopup(popup_d85731d18b04464d836b9bbddf0dc446);
+
+            
+        
+    
+            var circle_marker_3b84c52ab2674617949a76d7044ebdcf = L.circleMarker(
+                [32.977312564387546,-96.74040632458653],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_1773c2e112f04aa6bcde10d4b8e8beb8 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac81d0e9a4e2472dabc3818fcc967715 = $('<div id="html_ac81d0e9a4e2472dabc3818fcc967715" style="width: 100.0%; height: 100.0%;">75240,Woody B&#39;s BBQ,4.9 stars, 32 reviews</div>')[0];
+                popup_1773c2e112f04aa6bcde10d4b8e8beb8.setContent(html_ac81d0e9a4e2472dabc3818fcc967715);
+            
+
+            circle_marker_3b84c52ab2674617949a76d7044ebdcf.bindPopup(popup_1773c2e112f04aa6bcde10d4b8e8beb8);
+
+            
+        
+    
+            var circle_marker_8ad99c75cfe8403a967566c18b5401ff = L.circleMarker(
+                [32.95447821634292,-97.00994281527994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_faa84e7702fb4aecb4bbe327a943ae49 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ad39dc87f9b4eaa8bdddff01c91c5af = $('<div id="html_2ad39dc87f9b4eaa8bdddff01c91c5af" style="width: 100.0%; height: 100.0%;">75261,Hard Eight BBQ,4.5 stars, 5854 reviews</div>')[0];
+                popup_faa84e7702fb4aecb4bbe327a943ae49.setContent(html_2ad39dc87f9b4eaa8bdddff01c91c5af);
+            
+
+            circle_marker_8ad99c75cfe8403a967566c18b5401ff.bindPopup(popup_faa84e7702fb4aecb4bbe327a943ae49);
+
+            
+        
+    
+            var circle_marker_a4a58e51d7c941d284c22bb4fc4b8b4a = L.circleMarker(
+                [30.201996167589087,-97.66778616614192],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_8a5bec8806c744a3bb2c1d7d6c639109 = L.popup({maxWidth: '300'});
+
+            
+                var html_3346ba9452a54fe5a94a3b870ae0e89c = $('<div id="html_3346ba9452a54fe5a94a3b870ae0e89c" style="width: 100.0%; height: 100.0%;">78617,Salt Lick BBQ,4.6 stars, 8263 reviews</div>')[0];
+                popup_8a5bec8806c744a3bb2c1d7d6c639109.setContent(html_3346ba9452a54fe5a94a3b870ae0e89c);
+            
+
+            circle_marker_a4a58e51d7c941d284c22bb4fc4b8b4a.bindPopup(popup_8a5bec8806c744a3bb2c1d7d6c639109);
+
+            
+        
+    
+            var circle_marker_1c3950b3001d4626850bb94f9d099a9e = L.circleMarker(
+                [30.512262117149195,-97.6807802511349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_713b691a20734f698fb04b143a86c416 = L.popup({maxWidth: '300'});
+
+            
+                var html_21c76c0ec4284b5d927bc9bce853a2b8 = $('<div id="html_21c76c0ec4284b5d927bc9bce853a2b8" style="width: 100.0%; height: 100.0%;">78660,Round Rock Premium Outlets,4.4 stars, 6385 reviews</div>')[0];
+                popup_713b691a20734f698fb04b143a86c416.setContent(html_21c76c0ec4284b5d927bc9bce853a2b8);
+            
+
+            circle_marker_1c3950b3001d4626850bb94f9d099a9e.bindPopup(popup_713b691a20734f698fb04b143a86c416);
+
+            
+        
+    
+            var circle_marker_f1f67e0fde1343c3beebe9e710c4f0b1 = L.circleMarker(
+                [30.27006662779377,-97.73137629032135],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_bf6d118eefa44ab3ae65ed629de22bd1 = L.popup({maxWidth: '300'});
+
+            
+                var html_7bfa31e771e84c8b94c40a38dfe602e5 = $('<div id="html_7bfa31e771e84c8b94c40a38dfe602e5" style="width: 100.0%; height: 100.0%;">78701,Franklin Barbecue,4.7 stars, 3258 reviews</div>')[0];
+                popup_bf6d118eefa44ab3ae65ed629de22bd1.setContent(html_7bfa31e771e84c8b94c40a38dfe602e5);
+            
+
+            circle_marker_f1f67e0fde1343c3beebe9e710c4f0b1.bindPopup(popup_bf6d118eefa44ab3ae65ed629de22bd1);
+
+            
+        
+    
+            var circle_marker_0a22bb0ec5384d28b03c7856916d0606 = L.circleMarker(
+                [30.26496553144536,-97.74374663829805],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_df60748a8b884f0fab329a283c2ae3fe = L.popup({maxWidth: '300'});
+
+            
+                var html_67d72422ca0444b2af528533584bb171 = $('<div id="html_67d72422ca0444b2af528533584bb171" style="width: 100.0%; height: 100.0%;">78701,Cooper&#39;s Old Time Pit Bar-B-Que Austin,4.5 stars, 3112 reviews</div>')[0];
+                popup_df60748a8b884f0fab329a283c2ae3fe.setContent(html_67d72422ca0444b2af528533584bb171);
+            
+
+            circle_marker_0a22bb0ec5384d28b03c7856916d0606.bindPopup(popup_df60748a8b884f0fab329a283c2ae3fe);
+
+            
+        
+    
+            var circle_marker_e11b9f95a2ce49e487213deeabbc6de2 = L.circleMarker(
+                [30.33450654367477,-97.72132192583527],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_c477b0a2cb69441dbac6d27b84730ad0 = L.popup({maxWidth: '300'});
+
+            
+                var html_96553bc10f184045bdb9f0e71360bedb = $('<div id="html_96553bc10f184045bdb9f0e71360bedb" style="width: 100.0%; height: 100.0%;">78701,Stiles Switch BBQ,4.6 stars, 2965 reviews</div>')[0];
+                popup_c477b0a2cb69441dbac6d27b84730ad0.setContent(html_96553bc10f184045bdb9f0e71360bedb);
+            
+
+            circle_marker_e11b9f95a2ce49e487213deeabbc6de2.bindPopup(popup_c477b0a2cb69441dbac6d27b84730ad0);
+
+            
+        
+    
+            var circle_marker_bcaabda271714f79ab1f2377a1129341 = L.circleMarker(
+                [30.238937854610924,-97.69433865848845],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_6fe7602bf88f47f296b588e52a544539 = L.popup({maxWidth: '300'});
+
+            
+                var html_45c21da67bec4262be1d9f2c71a868e6 = $('<div id="html_45c21da67bec4262be1d9f2c71a868e6" style="width: 100.0%; height: 100.0%;">78701,Ray&#39;s BBQ Shack,4.5 stars, 1979 reviews</div>')[0];
+                popup_6fe7602bf88f47f296b588e52a544539.setContent(html_45c21da67bec4262be1d9f2c71a868e6);
+            
+
+            circle_marker_bcaabda271714f79ab1f2377a1129341.bindPopup(popup_6fe7602bf88f47f296b588e52a544539);
+
+            
+        
+    
+            var circle_marker_a5cfb8a67ef9480898fea244cd0fc5d7 = L.circleMarker(
+                [30.206718653374033,-97.83544486137288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_8047b308ced140daa7c026eb8317eb4d = L.popup({maxWidth: '300'});
+
+            
+                var html_c3b68b21b6bc4a3580bf653789bab6d3 = $('<div id="html_c3b68b21b6bc4a3580bf653789bab6d3" style="width: 100.0%; height: 100.0%;">78704,Valentina&#39;s Tex Mex BBQ,4.7 stars, 2509 reviews</div>')[0];
+                popup_8047b308ced140daa7c026eb8317eb4d.setContent(html_c3b68b21b6bc4a3580bf653789bab6d3);
+            
+
+            circle_marker_a5cfb8a67ef9480898fea244cd0fc5d7.bindPopup(popup_8047b308ced140daa7c026eb8317eb4d);
+
+            
+        
+    
+            var circle_marker_697edb9d956d409d8b0d8cb48bf49895 = L.circleMarker(
+                [29.734292668635927,-95.39395302139641],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_3d896987b4c64530978734ce52ab4d05 = L.popup({maxWidth: '300'});
+
+            
+                var html_16eaa6dfc6714c9f8f8020347d2a5255 = $('<div id="html_16eaa6dfc6714c9f8f8020347d2a5255" style="width: 100.0%; height: 100.0%;">77001,The Pit Room,4.6 stars, 2295 reviews</div>')[0];
+                popup_3d896987b4c64530978734ce52ab4d05.setContent(html_16eaa6dfc6714c9f8f8020347d2a5255);
+            
+
+            circle_marker_697edb9d956d409d8b0d8cb48bf49895.bindPopup(popup_3d896987b4c64530978734ce52ab4d05);
+
+            
+        
+    
+            var circle_marker_05a4309559404470977b9b1da669ccba = L.circleMarker(
+                [29.7986937626297,-95.38164149581642],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_429989ccb3c34acca162d1a5513fd063 = L.popup({maxWidth: '300'});
+
+            
+                var html_15ad2998fdd142179d541ea745669ec6 = $('<div id="html_15ad2998fdd142179d541ea745669ec6" style="width: 100.0%; height: 100.0%;">77001,Pinkerton&#39;s Barbecue,4.7 stars, 1538 reviews</div>')[0];
+                popup_429989ccb3c34acca162d1a5513fd063.setContent(html_15ad2998fdd142179d541ea745669ec6);
+            
+
+            circle_marker_05a4309559404470977b9b1da669ccba.bindPopup(popup_429989ccb3c34acca162d1a5513fd063);
+
+            
+        
+    
+            var circle_marker_efd2f2ee4798477899754ce4cf3b2ab5 = L.circleMarker(
+                [29.81932582592525,-95.3022337110313],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_e37e87ff82814bb480f16367ca16a9e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_8537ea99ac204e0c9fc511e0757b2931 = $('<div id="html_8537ea99ac204e0c9fc511e0757b2931" style="width: 100.0%; height: 100.0%;">77001,Triple J&#39;s Smokehouse,4.6 stars, 1860 reviews</div>')[0];
+                popup_e37e87ff82814bb480f16367ca16a9e4.setContent(html_8537ea99ac204e0c9fc511e0757b2931);
+            
+
+            circle_marker_efd2f2ee4798477899754ce4cf3b2ab5.bindPopup(popup_e37e87ff82814bb480f16367ca16a9e4);
+
+            
+        
+    
+            var circle_marker_1a30f227d7dc43b5bdcedc966824d05b = L.circleMarker(
+                [29.733102600000002,-95.4573137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_78c619d9c8314aa8bb5c95b097befed3 = L.popup({maxWidth: '300'});
+
+            
+                var html_7d50e9329ba441e285d0675ec3f731f1 = $('<div id="html_7d50e9329ba441e285d0675ec3f731f1" style="width: 100.0%; height: 100.0%;">77001,City Market,4.6 stars, 1628 reviews</div>')[0];
+                popup_78c619d9c8314aa8bb5c95b097befed3.setContent(html_7d50e9329ba441e285d0675ec3f731f1);
+            
+
+            circle_marker_1a30f227d7dc43b5bdcedc966824d05b.bindPopup(popup_78c619d9c8314aa8bb5c95b097befed3);
+
+            
+        
+    
+            var circle_marker_97b0ad530a5a47a096813fe0cf1776ce = L.circleMarker(
+                [29.864721999999997,-95.41295600000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_6ccbd7413ae340368f99112096d7f9ba = L.popup({maxWidth: '300'});
+
+            
+                var html_2b6dc358a2f941dd817e5d4fb076055a = $('<div id="html_2b6dc358a2f941dd817e5d4fb076055a" style="width: 100.0%; height: 100.0%;">77008,Burns Original BBQ,4.6 stars, 1805 reviews</div>')[0];
+                popup_6ccbd7413ae340368f99112096d7f9ba.setContent(html_2b6dc358a2f941dd817e5d4fb076055a);
+            
+
+            circle_marker_97b0ad530a5a47a096813fe0cf1776ce.bindPopup(popup_6ccbd7413ae340368f99112096d7f9ba);
+
+            
+        
+    
+            var circle_marker_b31e0d569da54ed8b6b09a5f5ebdb613 = L.circleMarker(
+                [29.6573006,-95.2735942],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_2725c6661d334c8c9b251fbf66cc59e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5bb374b52774f9e998caad2b81fc175 = $('<div id="html_b5bb374b52774f9e998caad2b81fc175" style="width: 100.0%; height: 100.0%;">77012,Pappas Burger,4.6 stars, 1559 reviews</div>')[0];
+                popup_2725c6661d334c8c9b251fbf66cc59e7.setContent(html_b5bb374b52774f9e998caad2b81fc175);
+            
+
+            circle_marker_b31e0d569da54ed8b6b09a5f5ebdb613.bindPopup(popup_2725c6661d334c8c9b251fbf66cc59e7);
+
+            
+        
+    
+            var circle_marker_3186706db4ed4beba3e8aea06c55471f = L.circleMarker(
+                [29.563919687340274,-95.2823550261354],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_b696d06960454aefa8d21c059e3e127f = L.popup({maxWidth: '300'});
+
+            
+                var html_f1727f37272e43ebb6801eea02fff3d3 = $('<div id="html_f1727f37272e43ebb6801eea02fff3d3" style="width: 100.0%; height: 100.0%;">77034,Killen&#39;s Barbecue,4.5 stars, 3223 reviews</div>')[0];
+                popup_b696d06960454aefa8d21c059e3e127f.setContent(html_f1727f37272e43ebb6801eea02fff3d3);
+            
+
+            circle_marker_3186706db4ed4beba3e8aea06c55471f.bindPopup(popup_b696d06960454aefa8d21c059e3e127f);
+
+            
+        
+    
+            var circle_marker_6ddad3c2d811436b872f26e486d7fa54 = L.circleMarker(
+                [29.51942942812605,-95.12250423431395],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_1460f2f3f5f5446d9b3e4780a2c7f7d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_ada5099145d0473c80a646b9098300cf = $('<div id="html_ada5099145d0473c80a646b9098300cf" style="width: 100.0%; height: 100.0%;">77058,Rudy&#39;s &#34;Country Store&#34; and Bar-B-Q,4.6 stars, 2420 reviews</div>')[0];
+                popup_1460f2f3f5f5446d9b3e4780a2c7f7d7.setContent(html_ada5099145d0473c80a646b9098300cf);
+            
+
+            circle_marker_6ddad3c2d811436b872f26e486d7fa54.bindPopup(popup_1460f2f3f5f5446d9b3e4780a2c7f7d7);
+
+            
+        
+    
+            var circle_marker_e29db32a2bc14df6a3d3ab1df93f8b74 = L.circleMarker(
+                [29.541928525393768,-95.0197079898086],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_d65c77a8eadb49ef9bdf0bf480cb4d62 = L.popup({maxWidth: '300'});
+
+            
+                var html_fb521c34da47414a923f98d5aa2d27e4 = $('<div id="html_fb521c34da47414a923f98d5aa2d27e4" style="width: 100.0%; height: 100.0%;">77058,T-Bone Tom&#39;s,4.5 stars, 3195 reviews</div>')[0];
+                popup_d65c77a8eadb49ef9bdf0bf480cb4d62.setContent(html_fb521c34da47414a923f98d5aa2d27e4);
+            
+
+            circle_marker_e29db32a2bc14df6a3d3ab1df93f8b74.bindPopup(popup_d65c77a8eadb49ef9bdf0bf480cb4d62);
+
+            
+        
+    
+            var circle_marker_3595f132da804738968482bd15110234 = L.circleMarker(
+                [30.0807647642907,-95.41999460352513],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_eafa17569d2b48b9b51ac4b94820b8da = L.popup({maxWidth: '300'});
+
+            
+                var html_c45ba632a6104a7788e7bc8a3a856b8b = $('<div id="html_c45ba632a6104a7788e7bc8a3a856b8b" style="width: 100.0%; height: 100.0%;">77073,CorkScrew BBQ,4.8 stars, 1886 reviews</div>')[0];
+                popup_eafa17569d2b48b9b51ac4b94820b8da.setContent(html_c45ba632a6104a7788e7bc8a3a856b8b);
+            
+
+            circle_marker_3595f132da804738968482bd15110234.bindPopup(popup_eafa17569d2b48b9b51ac4b94820b8da);
+
+            
+        
+    
+            var circle_marker_15116f0cc27d40e18ddebe2b5caa94d4 = L.circleMarker(
+                [32.730481972090224,-97.33734076392678],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_6283f9679bdc4af3aa4563354caf3883 = L.popup({maxWidth: '300'});
+
+            
+                var html_a9add89a15464cd7a78fa3c981cbee25 = $('<div id="html_a9add89a15464cd7a78fa3c981cbee25" style="width: 100.0%; height: 100.0%;">76101,Heim Barbecue,4.5 stars, 2654 reviews</div>')[0];
+                popup_6283f9679bdc4af3aa4563354caf3883.setContent(html_a9add89a15464cd7a78fa3c981cbee25);
+            
+
+            circle_marker_15116f0cc27d40e18ddebe2b5caa94d4.bindPopup(popup_6283f9679bdc4af3aa4563354caf3883);
+
+            
+        
+    
+            var circle_marker_9083f4b4082b4bb780241095331839a9 = L.circleMarker(
+                [32.792540333079536,-97.34747433148426],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_508da4ee619148c089c1732fc8fef76e = L.popup({maxWidth: '300'});
+
+            
+                var html_fd0c0944fa5847809200e42d35c59ead = $('<div id="html_fd0c0944fa5847809200e42d35c59ead" style="width: 100.0%; height: 100.0%;">76101,Cooper&#39;s Old Time Pit Bar-B-Que,4.6 stars, 1848 reviews</div>')[0];
+                popup_508da4ee619148c089c1732fc8fef76e.setContent(html_fd0c0944fa5847809200e42d35c59ead);
+            
+
+            circle_marker_9083f4b4082b4bb780241095331839a9.bindPopup(popup_508da4ee619148c089c1732fc8fef76e);
+
+            
+        
+    
+            var circle_marker_3df3276285d74f8c9738549847d7f409 = L.circleMarker(
+                [32.70556,-97.3479],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_99573db3ac8f452982142ecc986644da = L.popup({maxWidth: '300'});
+
+            
+                var html_5aeff9de5f104a23bc8a1e4d309cd84d = $('<div id="html_5aeff9de5f104a23bc8a1e4d309cd84d" style="width: 100.0%; height: 100.0%;">76101,Dayne&#39;s Craft Barbecue,5.0 stars, 25 reviews</div>')[0];
+                popup_99573db3ac8f452982142ecc986644da.setContent(html_5aeff9de5f104a23bc8a1e4d309cd84d);
+            
+
+            circle_marker_3df3276285d74f8c9738549847d7f409.bindPopup(popup_99573db3ac8f452982142ecc986644da);
+
+            
+        
+    
+            var circle_marker_43ff170090a54b2f9bbbfd75f1fbe7f3 = L.circleMarker(
+                [32.820839775461266,-97.23797886205935],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ba08cb6dd44a4b4ca90f3ce31c423497);
+            
+    
+            var popup_f28928c0956b4e84ac79b8e528f91dd2 = L.popup({maxWidth: '300'});
+
+            
+                var html_fb6d2cc9d7044617a12f13ecd4808fd1 = $('<div id="html_fb6d2cc9d7044617a12f13ecd4808fd1" style="width: 100.0%; height: 100.0%;">76103,The Smoke House and More,5.0 stars, 23 reviews</div>')[0];
+                popup_f28928c0956b4e84ac79b8e528f91dd2.setContent(html_fb6d2cc9d7044617a12f13ecd4808fd1);
+            
+
+            circle_marker_43ff170090a54b2f9bbbfd75f1fbe7f3.bindPopup(popup_f28928c0956b4e84ac79b8e528f91dd2);
+
+            
+        
+</script>
